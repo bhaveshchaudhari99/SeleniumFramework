@@ -4,17 +4,17 @@ import java.io.IOException;
 
 import org.testng.Assert;
 
-import SSquareIT.SeleniumFrameworkbySSquareIT.CartPage;
-import SSquareIT.SeleniumFrameworkbySSquareIT.CheckoutPage;
-import SSquareIT.SeleniumFrameworkbySSquareIT.HomePage;
-import SSquareIT.SeleniumFrameworkbySSquareIT.LandingPage;
-import SSquareIT.SeleniumFrameworkbySSquareIT.LoginPage;
-import SSquareIT.SeleniumFrameworkbySSquareIT.ProductDetails;
-import SSquareIT.SeleniumFrameworkbySSquareIT.ProductPage;
 import TestComponents.BaseTest;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import seleniumFramework.CartPage;
+import seleniumFramework.CheckoutPage;
+import seleniumFramework.HomePage;
+import seleniumFramework.LandingPage;
+import seleniumFramework.LoginPage;
+import seleniumFramework.ProductDetails;
+import seleniumFramework.ProductPage;
 
 public class E2ESteps extends BaseTest {
 	

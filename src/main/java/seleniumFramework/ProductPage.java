@@ -1,4 +1,4 @@
-package SSquareIT.SeleniumFrameworkbySSquareIT;
+package seleniumFramework;
 
 import java.util.List;
 

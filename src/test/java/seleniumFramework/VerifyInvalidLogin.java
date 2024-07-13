@@ -1,4 +1,4 @@
-package SSquareIT.SeleniumFrameworkbySSquareIT;
+package seleniumFramework;
 
 import java.io.IOException;
 
@@ -8,6 +8,9 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import TestComponents.BaseTest;
+import seleniumFramework.HomePage;
+import seleniumFramework.LandingPage;
+import seleniumFramework.LoginPage;
 
 public class VerifyInvalidLogin extends BaseTest{
 
