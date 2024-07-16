@@ -7,13 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import seleniumFramework.CartPage;
-import seleniumFramework.CheckoutPage;
-import seleniumFramework.HomePage;
-import seleniumFramework.LandingPage;
-import seleniumFramework.LoginPage;
-import seleniumFramework.ProductDetails;
-import seleniumFramework.ProductPage;
 import testComponents.BaseTest;
 
 public class E2ETest2 extends BaseTest{
