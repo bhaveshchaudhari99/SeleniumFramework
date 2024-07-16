@@ -1,4 +1,4 @@
-package seleniumFramework;
+package SeleniumFramework;
 
 import java.io.IOException;
 
@@ -7,10 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import SeleniumFramework.HomePage;
+import SeleniumFramework.LandingPage;
+import SeleniumFramework.LoginPage;
 import TestComponents.BaseTest;
-import seleniumFramework.HomePage;
-import seleniumFramework.LandingPage;
-import seleniumFramework.LoginPage;
 
 public class VerifyInvalidLogin extends BaseTest{
 

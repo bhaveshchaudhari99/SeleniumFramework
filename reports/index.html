@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 10, 2024 09:43:51 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 16, 2024 07:01:10 pm</span></a>
 </li>
 </ul>
 </div>
@@ -71,7 +71,6 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -80,25 +79,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">endToEndTest</p>
             <p class="text-sm">
-              <span>9:43:51 pm</span> / <span>00:00:11:401</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>7:01:11 pm</span> / <span>00:00:20:005</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">endToEndTest</h5>
-<span class='badge badge-success'>07.10.2024 9:43:51 pm</span>
-<span class='badge badge-danger'>07.10.2024 9:44:03 pm</span>
-<span class='badge badge-default'>00:00:11:401</span>
+<h5 class="test-status text-fail">endToEndTest</h5>
+<span class='badge badge-success'>07.16.2024 7:01:11 pm</span>
+<span class='badge badge-danger'>07.16.2024 7:01:31 pm</span>
+<span class='badge badge-default'>00:00:20:005</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -109,59 +108,19 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:44:03 pm</td>
-        <td>
-          Test Case Passed.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="2"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">endToEndTest</p>
-            <p class="text-sm">
-              <span>9:44:03 pm</span> / <span>00:00:10:747</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">endToEndTest</h5>
-<span class='badge badge-success'>07.10.2024 9:44:03 pm</span>
-<span class='badge badge-danger'>07.10.2024 9:44:13 pm</span>
-<span class='badge badge-default'>00:00:10:747</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:44:13 pm</td>
+        <td>7:01:31 pm</td>
         <td>
           <textarea readonly class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=126.0.6478.127)
+  (Session info: MicrosoftEdge=126.0.2592.102)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4189610aa7721def95e5697c69582531, clickElement {id=f.7E6028F46FAA9BC9D731ACBCE652379E.d.95A4EC980018B85B82310B5773EC8385.e.181}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\BHAVES~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64766/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (4189610aa7721def95e5697c69582531)] -> xpath: //strong[text()='Checkout']]
-Session ID: 4189610aa7721def95e5697c69582531
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f51ad3d7bce94730a3cf2bb5d957b9b7, clickElement {id=f.61751727718FE929D4C769F06597CCF4.d.040DE69403BDC0B49619228C2072C7C6.e.204}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.102, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57343}, msedge: {msedgedriverVersion: 126.0.2592.102 (720b5d614be..., userDataDir: C:\Users\BHAVES~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57343/devtoo..., se:cdpVersion: 126.0.2592.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f51ad3d7bce94730a3cf2bb5d957b9b7)] -> xpath: //strong[text()='Checkout']]
+Session ID: f51ad3d7bce94730a3cf2bb5d957b9b7
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -176,13 +135,14 @@ Session ID: 4189610aa7721def95e5697c69582531
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
 	at SSquareIT.SeleniumFrameworkbySSquareIT.CartPage.goToCheckotPage(CartPage.java:40)
-	at SSquareIT.SeleniumFrameworkbySSquareIT.E2ETest2.endToEndTest(E2ETest2.java:45)
+	at SSquareIT.SeleniumFrameworkbySSquareIT.E2ETest2.endToEndTest(E2ETest2.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -221,7 +181,7 @@ Session ID: 4189610aa7721def95e5697c69582531
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>9:44:13 pm</td>
+        <td>7:01:31 pm</td>
         <td>
           <textarea readonly class="code-block">java.lang.IllegalArgumentException: ScreenCapture path must not be null or empty
 	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
@@ -287,39 +247,6 @@ Session ID: 4189610aa7721def95e5697c69582531
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.StaleElementReferenceException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>21:44:03 pm</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>endToEndTest</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
 <p class="name">java.lang.IllegalArgumentException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
@@ -339,9 +266,42 @@ Session ID: 4189610aa7721def95e5697c69582531
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>21:44:03 pm</td>
+<td>19:01:11 pm</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>endToEndTest</a>
+<a href="#" class="linked" test-id='1' id='1'>endToEndTest</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:01:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>endToEndTest</a>
 </td>
 </tr>
 </tbody>
@@ -361,19 +321,19 @@ Session ID: 4189610aa7721def95e5697c69582531
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 10, 2024 09:43:51 pm</h3>
+<h3>Jul 16, 2024 07:01:10 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 10, 2024 09:44:13 pm</h3>
+<h3>Jul 16, 2024 07:01:31 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -395,12 +355,12 @@ Session ID: 4189610aa7721def95e5697c69582531
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'>
-<b>1</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='50%'><b>1</b> tests failed,
+<small data-tooltip='100%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -418,9 +378,9 @@ Session ID: 4189610aa7721def95e5697c69582531
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='66%'><b>2</b> events failed,
+<small data-tooltip='100%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -437,7 +397,7 @@ Session ID: 4189610aa7721def95e5697c69582531
 </div></div>
 <script>
 var timeline = {
-"endToEndTest":11.401,"endToEndTest":10.747
+"endToEndTest":20.005
 };
 </script>
 <div class="row">
@@ -460,7 +420,7 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 0,
 failParent: 1,
 warningParent: 0,
 skipParent: 0,
@@ -477,7 +437,7 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
+passEvents: 0,
 failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,

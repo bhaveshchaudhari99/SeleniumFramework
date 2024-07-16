@@ -1,4 +1,4 @@
-package seleniumFramework;
+package SeleniumFramework;
 
 import java.time.Duration;
 import java.util.List;
@@ -15,7 +15,7 @@ import TestComponents.RetryTest;
 
 public class E2ETest {
 
-	@Test(retryAnalyer = RetryTest.class)
+	@Test
 	public void endToEndTest()
 	{
 		WebDriver driver = new ChromeDriver();
