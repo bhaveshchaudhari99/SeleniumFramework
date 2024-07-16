@@ -6,8 +6,8 @@
 	</listeners>	
   <test thread-count="5" name="Test">
     <classes>
-     <!-- <class name="SSquareIT.SeleniumFrameworkbySSquareIT.E2ETest2"/>-->
-      <class name="SSquareIT.SeleniumFrameworkbySSquareIT.VerifyInvalidLogin"/>
+     <!-- <class name="SeleniumFramework.E2ETest2"/>-->
+      <class name="SeleniumFramework.VerifyInvalidLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
