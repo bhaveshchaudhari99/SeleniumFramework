@@ -1,4 +1,4 @@
-package SeleniumFramework;
+package seleniumFramework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

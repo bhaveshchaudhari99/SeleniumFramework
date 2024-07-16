@@ -1,11 +1,11 @@
-package SeleniumFramework;
+package seleniumFramework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Utilities.BasePageClass;
+import utilities.BasePageClass;
 
 public class ProductDetails extends BasePageClass{
 	

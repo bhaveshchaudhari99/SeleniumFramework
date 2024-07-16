@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="TestComponents.Listeners"></listener>
+		<listener class-name="testComponents.Listeners"></listener>
 	</listeners>	
   <test thread-count="5" name="Test">
     <classes>
-     <!-- <class name="SeleniumFramework.E2ETest2"/>-->
-      <class name="SeleniumFramework.VerifyInvalidLogin"/>
+     <!-- <class name="seleniumFramework.E2ETest2"/>-->
+      <class name="seleniumFramework.VerifyInvalidLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-package SeleniumFramework;
+package seleniumFramework;
 
 import java.time.Duration;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import TestComponents.RetryTest;
+import testComponents.RetryTest;
 
 public class E2ETest {
 

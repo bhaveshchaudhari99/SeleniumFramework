@@ -1,4 +1,4 @@
-package SeleniumFramework;
+package seleniumFramework;
 
 import java.io.IOException;
 
@@ -7,14 +7,14 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import SeleniumFramework.CartPage;
-import SeleniumFramework.CheckoutPage;
-import SeleniumFramework.HomePage;
-import SeleniumFramework.LandingPage;
-import SeleniumFramework.LoginPage;
-import SeleniumFramework.ProductDetails;
-import SeleniumFramework.ProductPage;
-import TestComponents.BaseTest;
+import seleniumFramework.CartPage;
+import seleniumFramework.CheckoutPage;
+import seleniumFramework.HomePage;
+import seleniumFramework.LandingPage;
+import seleniumFramework.LoginPage;
+import seleniumFramework.ProductDetails;
+import seleniumFramework.ProductPage;
+import testComponents.BaseTest;
 
 public class E2ETest2 extends BaseTest{
 
